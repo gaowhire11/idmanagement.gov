@@ -56,6 +56,10 @@ subnav:
 }
 </style>
 
+<img src="{{site.baseurl}}/assets/logo/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo">
+<img src="{{site.baseurl}}/assets/logo/logo-cio-round.png" width="64" height='64' align="left" alt="U.S. Federal Chief Information Officer Council Logo">
+<br><br><br>
+
 This playbook is a collaboration between the Federal Chief Information Security Officer Council Identity, Credential, and Access Management Subcommittee and the Digital Identity Community of Practice, and the DOD DARPA SemaFor Program team. For additional context and to request a conversation or demo of the tools mentioned within this document please contact [icam@gsa.gov](mailto:icam@gsa.gov){:class="usa-link"}.
 
 <br/>
@@ -141,45 +145,46 @@ These are key terms used throughout this document:
 
 The primary audience for this playbook are agency digital identity and security program managers. Table 1 lists stakeholders and stakeholder types digital identity program managers engage with during identity fraud prevention, detection and mitigation. An internal stakeholder is within the agency and external stakeholders are outside the agency.
 
-
 <table class="usa-table">
-<caption>Table 1: Stakeholder Table</caption>
-<thead>
-  <tr>
-    <th scope="col" id="stakeholder">Stakeholder</th>
-    <th scope="col" id="stakeholder-type">Stakeholder Type</th>
-  </tr>
-</thead>
-<tbody>
-<tr>
-  <th scope="row" headers="stakeholder">Digital Identity and Security Program Managers</th>
-  <td headers="stakeholder-type">Internal</td>
-</tr>
-<tr>
-  <th scope="row" headers="stakeholder">Security Operations</th>
-  <td headers="stakeholder-type">Internal</td>
-</tr>
-<tr>
-  <th scope="row" headers="stakeholder">IT / System Administrators</th>
-  <td headers="stakeholder-type">Internal</td>
-</tr>
-<tr>
-  <th scope="row" headers="stakeholder">Human Resources</th>
-  <td headers="stakeholder-type">Internal</td>
-</tr>
-<tr>
-  <th scope="row" headers="stakeholder">Users</th>
-  <td headers="stakeholder-type">Internal/External</td>
-</tr>
-<tr>
-  <th scope="row" headers="stakeholder">Third-Party Assessors</th>
-  <td headers="stakeholder-type">External</td>
-</tr>
-<tr>
-  <th scope="row" headers="stakeholder">Law Enforcement Agencies</th>
-  <td headers="stakeholder-type">External</td>
-</tr>
-</tbody>
+  <caption>
+    Table 1: Stakeholder Table
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Stakeholder</th>
+      <th scope="col">Stakeholder Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" headers="stakeholder">Digital Identity and Security Program Managers</th>
+      <td>Internal</td>
+    </tr>
+    <tr>
+      <th scope="row" headers="stakeholder">Security Operations</th>
+      <td>Internal</td>
+    </tr>
+    <tr>
+      <th scope="row" headers="stakeholder">IT / System Administrators</th>
+      <td>Internal</td>
+    </tr>
+    <tr>
+      <th scope="row" headers="stakeholder">Human Resources</th>
+      <td>Internal</td>
+    </tr>
+    <tr>
+      <th scope="row" headers="stakeholder">Users</th>
+      <td>Internal</td>
+    </tr>
+    <tr>
+      <th scope="row" headers="stakeholder">Third-Party Assessors</th>
+      <td>External</td>
+    </tr>
+    <tr>
+      <th scope="row" headers="stakeholder">Law Enforcement Agencies</th>
+      <td>External</td>
+    </tr>
+  </tbody>
 </table>
 
 
@@ -191,7 +196,7 @@ This playbook was developed by the General Services Administration Office of Gov
 
 ### What is it?
 
-*“The impact of identity theft on the government sector reaches far and wide, costing Americans tens of billions of dollars every year”* *<sub>__(LexisNexis, 2016, pg.9)__<sup>[^1]</sup></sub>*.
+“The impact of identity theft on the government sector reaches far and wide, costing Americans tens of billions of dollars every year” <sub><u>(LexisNexis, 2016, pg.9)</u></sub> [^1].
 
 Identity fraud in the federal government happens when someone uses a stolen identity or a fake identity to gain access to a government system. This type of fraud has evolved with time and has grown increasingly sophisticated. Awareness of different identity fraud techniques will help agency fraud prevention, encourage compliance with federal policies, and promote unified interagency approach.
 
@@ -291,7 +296,7 @@ A digital photograph file, of individual, individual’s location,  or documents
 
 **Analyst Task - Determine if presented image is generated or manipulated; localize the manipulation if present**
 
-Algorithms, such as those displayed in the DARPA SemaFor program prototype user interface depicted below, analyze the image and provide a finding of “Likely Manipulated,” along with detailed information to assist the analyst in making a judgement on a particular piece of media, in this case a generated image. 
+Algorithms, such as those displayed in the DARPA SemaFor program prototype user interface depicted below, analyze the image and provide a finding of “Likely Manipulated,” along with detailed information to assist the analyst in making a judgment on a particular piece of media, in this case a generated image. 
 
 **Figure 2 - Image**
 
@@ -316,7 +321,7 @@ The workflow selects analytics appropriate to the type of file submitted for ana
 **Figure 4 - Audio**
 
 <figure>
-  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure4-audio.jpg" alt="Multiple algorithms analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file-level findings illustrated above, the audio file is identified as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identified as manipulated in the analysis.">Multiple algorithms analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file-level findings illustrated above, the audio file is identified as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identified as manipulated in the analysis.</figcaption>
+  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure4-audio.jpg" alt="Multiple algorithms analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file-level findings illustrated above, the audio file is identified as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identified as manipulated in the analysis."><figcaption  class="gsa-figcaption">Multiple algorithms analyze the audio and provide findings of generated audio, along with detailed information to assist the analyst in making an assessment. In the file-level findings illustrated above, the audio file is identified as manipulated by several analytics. The audio pattern in red indicates the portion of the audio identified as manipulated in the analysis.</figcaption>
 </figure>
 
 
@@ -331,7 +336,7 @@ Analytics process both the audio track and video tracks for semantic consistency
 **Figure 5: Video**
 
 <figure>
-  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure5-video.jpg" alt="Workflow output, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identified as a deepfake with an analytic runtime of approximately two minutes.">Workflow output, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identified as a deepfake with an analytic runtime of approximately two minutes.</figcaption>
+  <img src="{{site.baseurl}}/assets/experiments/idfraud/figure5-video.jpg" alt="Workflow output, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identified as a deepfake with an analytic runtime of approximately two minutes."><figcaption  class="gsa-figcaption">Workflow output, with the higher analytic score on the right of the image, indicates this video is probably manipulated. This video is identified as a deepfake with an analytic runtime of approximately two minutes.</figcaption>
 </figure>
 
 **Deepfake Scenario Impacts for Image, Audio, Video**

@@ -265,7 +265,7 @@ and digital signatures, see the [Federal CIO Council guidance on the Use of Elec
 Signatures in Federal Organization Transactions](https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1151/2016/10/Use_of_ESignatures_in_Federal_Agency_Transactions_v1-0_20130125.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}. An agency can request a
 role-based delegated digital signature certificate from a Federal PKI Shared Service
 Provider or other approved Federal issuer. Like a PIV card, a delegated digital
-signature hardware token is issued to a single person, referred to as the delegated digital signature certifiate recipient, and must not be shared under any
+signature hardware token is issued to a single person, referred to as the delegated digital signature certificate recipient, and must not be shared under any
 circumstance.
 
 This playbook outlines the process for federal agencies to create a process for
@@ -380,7 +380,7 @@ administrative controls and may inherit several certificate controls.
 
 1. Review the delegated digital signature standard operating procedures annually, or more
 frequently ([Template](#appendix-c-templates){:class="usa-link"}).
-2. Before selegated digital signature certificate issuance, verify the authorizing sponsor and each
+2. Before delegated digital signature certificate issuance, verify the authorizing sponsor and each
 certificate recipient has a valid PIV card through an auditable
 authentication or signing event.
 3. The delegated digital signature certificate recipient must be a federal employee.

@@ -83,6 +83,8 @@ primary_navigation:
         url: /implement/yubikey-guide/
       - name: Unifyia Implementation Guide for Passkeys (FIDO2)
         url: /implement/unifyia-guide/
+      - name: Shatterproof Digital Identity - GSA PQC Experiment
+        url: /implement/unifyia-pqc-experiment/
   - name: Functions
     children: 
       - name: FICAM Program
@@ -133,7 +135,11 @@ primary_navigation:
         url: /experiments/pid/framework/
       - name: PIAM Process
         url: /experiments/pid/process/
-
+      - name: Mobile PIV (mPIV) Experiment
+        url: /experiments/unifyia-mpiv-experiment/
+      - name: Shatterproof Digital Identity - GSA PQC Experiment
+        url: /experiments/unifyia-pqc-experiment/
+        
 secondary_navigation:
   - name: Contact Us
     url: /contact-us/
@@ -160,9 +166,6 @@ searchgov:
 ##########################################################################################
 
 collections:
-  why:
-    output: true
-    permalink: /why/:path/
   arch:
     output: true
     permalink: /arch/:path/
@@ -175,9 +178,6 @@ collections:
   university:
     output: true
     permalink: /university/:path/   
-  rss:
-    output: true
-    permalink: /rss/:path/ 
   playbooks:
     output: true
     permalink: /playbooks/:path/ 
@@ -190,6 +190,10 @@ collections:
   experiments:
     output: true
     permalink: /experiments/:path/
+  rss:
+    output: true
+    permalink: /rss/:path/ 
+
 
 # Leaving in place: 
 # Unsure of placement in new site.
@@ -288,19 +292,19 @@ sass:
   verbose: true
 
 # For page generator
-page_gen-dirs: true
+# page_gen-dirs: true
 
-page_gen:
-  - data: "laws-policies-standards"
-    template: "standards_detail"
-    name: "shortName"
-    directory: "policies"
-    #debug: true
-  - data: "ficam-services"
-    template: "services_detail"
-    name: "shortName"
-    directory: "ficam_services"
-  - data: "laws-policies-standards"
-    template: "services_detail"
-    name: "shortName"
-    directory: "scope"
+# page_gen:
+#   - data: "laws-policies-standards"
+#     template: "standards_detail"
+#     name: "shortName"
+#     directory: "policies"
+#     #debug: true
+#   - data: "ficam-services"
+#     template: "services_detail"
+#     name: "shortName"
+#     directory: "ficam_services"
+#   - data: "laws-policies-standards"
+#     template: "services_detail"
+#     name: "shortName"
+#     directory: "scope"

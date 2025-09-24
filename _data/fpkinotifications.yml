@@ -26,6 +26,64 @@
 # ee_cdp_uri:
 # ee_ocsp_uri:
 
+- notice_date: August 12, 2025
+  change_type: Repository Outage
+  system: Department of State PKI
+  change_description: Starting at 7:00 AM ET on Tuesday, August 12, 2025 through roughly 4:00 PM ET on Wednesday, August 13, 2025 users reported errors with the availability of the Department of State PKI repositories to include CRLs, AIA and SIA in the crls.pki.state.gov domain.  Services have been restored to include complete SIA packages.
+  contact: FPKI at GSA dot gov
+  ca_certificate_hash: N/A
+  ca_certificate_issuer: N/A
+  ca_certificate_subject: N/A
+  cdp_uri: http://crls.pki.state.gov/crls/DoSADPKIRootCA1.crl
+  aia_uri: http://crls.pki.state.gov/AIA/CertsIssuedToDoSPIVCA3.p7c, http://crls.pki.state.gov/AIA/CertsIssuedToDoSPIVCA2.p7c
+  sia_uri: http://crls.pki.state.gov/SIA/CertsIssuedByADRootCA.p7c
+  ocsp_uri: N/A, OCSP is still currently available
+  ee_cdp_uri: http://crls.pki.state.gov/crls/DoSADPKIPIVCA3.crl, http://crls.pki.state.gov/crls/DoSADPKIPIVCA2.crl
+  ee_ocsp_uri: N/A, OCSP is still currently available
+
+- notice_date: August 4, 2025
+  change_type: CA Certificate Revocation
+  system: Entrust PKI SSP
+  change_description: The Entrust Managed Services Root CA revoked the rekeyed CA certificate to the Department of Energy that was valid from 3/28/2025 to 11/28/2030. All subscriber certificates signed by the DoE SSP CA are also revoked.
+  contact: support at entrust dot com
+  ca_certificate_hash: b964d4b90d3146b195e9fb258a06698c28f97cf1
+  ca_certificate_issuer: OU = Entrust Managed Services Root CA, OU = Certification Authorities, O = Entrust, C = US
+  ca_certificate_subject: CN = DOE SSP CA, OU = Certification Authorities, OU = Department of Energy, O = U.S. Government, C = US
+  cdp_uri: http://rootweb.managed.entrust.com/CRLs/EMSRootCA4.crl
+  aia_uri: http://rootweb.managed.entrust.com/AIA/CertsIssuedToEMSRootCA.p7c
+  sia_uri: N/A
+  ocsp_uri: http://ocsp.managed.entrust.com/OCSP/EMSRootCAResponder
+  ee_cdp_uri: N/A
+  ee_ocsp_uri: http://doesspocsp.managed.entrust.com/OCSP/DOESSPCA
+
+- notice_date: July 30, 2025
+  change_type: CA Certificate Issuance
+  system: CertiPath Bridge CA
+  change_description: The CertiPath Bridge CA-G3 issued a renewed cross certificate to the Raytheon Technologies Medium Assurance CA on 7/22/2025.
+  contact: support at certipath dot com
+  ca_certificate_hash: 22678804a646ea8c47a660fd049a2321ad76cc7f
+  ca_certificate_issuer: CN=CertiPath Bridge CA - G3, OU=Certification Authorities, O=CertiPath, C=US
+  ca_certificate_subject: CN=Raytheon Technologies Medium Assurance CA, OU=Class3-G3, O=cas, DC=rtx, DC=com
+  cdp_uri: http://crl.certipath.com/CertiPathBridgeCA-G3.crl
+  aia_uri: http://aia.certipath.com/CertiPathBridgeCA-G3.p7c
+  sia_uri: N/A
+  ocsp_uri: N/A
+  ee_cdp_uri: http://pki.rtx.com/G3/CRLs/Class3-G3_Full.crl
+  ee_ocsp_uri: N/A
+
+- notice_date: July 30, 2025
+  change_type: CA Certificate Issuance
+  system: CertiPath Bridge CA - G3
+  change_description: CertiPath issued a new cross certificate to the Boeing Company on August 22, 2025.
+  contact: support at certipath dot com
+  ca_certificate_hash: e1d2d81baf5dab518bd641c7071f173aedb994d3
+  ca_certificate_issuer: CN = CertiPath Bridge CA - G3, OU = Certification Authorities, O = CertiPath, C = US
+  ca_certificate_subject: CN = Boeing PCA G3, OU = certservers, O = Boeing, C = US
+  cdp_uri: http://crl.certipath.com/CertiPathBridgeCA-G3.crl
+  aia_uri: http://aia.certipath.com/CertiPathBridgeCA-G3.p7c
+  sia_uri: http://crl.boeing.com/crl/IssuedByBoeingPCAG3.p7c
+  ocsp_uri: N/A
+
 - notice_date: July 10, 2025
   change_type: CA Certificate Intent to Revoke
   system: Entrust PKI SSP

@@ -79,7 +79,7 @@ Membership is open to federal agency employees with a .gov or .mil email address
 
 ### ICAMSC Working Groups 
 
-**Digital Identity CoP** - The Digital Identity CoP fosters a government wide community for federal digital identity practitioners and serves as a platform to cross-train, educate and forum to exchange identity and access management technology trends, solutions, and architecture. This CoP allows practitioners to share lessons learned, opportunities and discuss innovative tailored identity processes for customer experience across both mission delivery (public identity) and mission support (workforce identity).
+**Digital Identity CoP** - The Digital Identity CoP fosters a government-wide community for federal digital identity practitioners and serves as a platform to cross-train, educate and forum to exchange identity and access management technology trends, solutions, and architecture. This CoP allows practitioners to share lessons learned, opportunities and discuss innovative tailored identity processes for customer experience across both mission delivery (public identity) and mission support (workforce identity).
 
 **FIDO CoA** - The Office of Management and Budget's Office of the Federal CIO, in partnership with the Identity, Credential, and Access Management Subcommittee and Cybersecurity and Infrastructure Security Agency, have launched a Phishing-Resistant Authentication (FIDO2) Community of Action through March 2025. This group works with Agencies that plan to rapidly deploy a pilot of FIDO2-based phishing-resistant authenticators within their enterprise, Provide agencies with access to expertise and guidance in achieving this goal, and Documents results to help accelerate the modernization of phishing-resistant MFA throughout the Federal Government.
 
@@ -114,13 +114,13 @@ It is co-chaired by the GSA Office of Government-wide Policy. The GSA Office of 
 ### Activities
 - **Approve Policies and Practices** – Approve Federal Bridge Certification Authority (FBCA) and Federal Common Policy Certification Authority Certificate Policies (CPs), including revisions; approve FPKI Trust Infrastructure Certification Practice Statements.
 - **Approve Entity Cross-Certification** – Establish and administer criteria and methodology for cross-certification with the FBCA; approve cross-certifications and execute Memoranda of Agreement (MOAs); maintain the FPKI Certification Applicant Requirements and the Common Policy CPS Evaluation Matrix.
-- [**Maintain Compliance**]({{site.baseurl}}/fpki/#audit-information-for-the-fpki-management-authority){:class="usa-link"} – Ensure cross-certified entities are compatible with the FBCA Certificate Policy (CP) (or the Federal Common Policy Certification Authority (FCPCA) CP for Federal Legacy CAs).
+- [**Maintain Compliance**]({{site.baseurl}}/fpki/#audit-information-for-the-fpki-management-authority){:rel="noopener noreferrer"}{:class="usa-link"} – Ensure cross-certified entities are compatible with the FBCA Certificate Policy (CP) (or the Federal Common Policy Certification Authority (FCPCA) CP for Federal Legacy CAs).
 - **Agreement with FPKI Management Authority** – Oversee the FPKI Management Authority (FPKIMA) to issue and revoke cross-certificates, ensure adherence to the FPKI CPs, and provide documentation to be archived.
 - **Interoperability Practices** – Coordinate legal, policy, technical, and business practices and issues related to FPKI Trust Infrastructure.
 
 ### Membership and Meetings
 
-Members are appointed by each federal agency’s CIO, and the group operates under the authority of the Federal CIO Council through the Information Security and Identity Management Committee (ISIMC) and the Identity, Credential, and Access Management Subcommittee (ICAMSC). See the [FPKIPA Charter]({{site.baseurl}}/docs/fpkipa-charter.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link"} (PDF, August 2021) for information on membership requirements, voting rights, etc.
+Members are appointed by each federal agency’s CIO, and the group operates under the authority of the Federal CIO Council through the Information Security and Identity Management Committee (ISIMC) and the Identity, Credential, and Access Management Subcommittee (ICAMSC). See the [FPKIPA Charter]({{site.baseurl}}/docs/fpkipa-charter.pdf){:rel="noopener noreferrer"}{:class="usa-link"} (PDF, August 2021) for information on membership requirements, voting rights, etc.
 
 The FPKIPA meets in the morning on the second Tuesday of each month. Contact [fpki@gsa.gov](mailto:fpki@gsa.gov){:class="usa-link"} to participate in the FPKIPA or its working groups.
 

@@ -27,14 +27,16 @@ subnav:
     href: '#key-terms'
 
 ---
-<!-- Updated by CJB 06-25-2024 -->
+<!-- Updated by CJB 09-04-2025 -->
 
 <img src="{{site.baseurl}}/assets/logo/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo">
-<img src="{{site.baseurl}}/assets/logo/logo-cio-round.png" width="64" height='64' align="left" alt="U.S. Federal Chief Information Officer Council Logo"><br><br><br>
+<img src="{{site.baseurl}}/assets/logo/logo-cio-round.png" width="64" height='64' align="left" alt="U.S. Federal Chief Information Officer Council Logo"><br>
 
+<p class="padding-top-4">
 The Identity Lifecycle Management Working Group of the Federal Chief Information Security Officer Council ICAM Subcommittee developed this playbook to help federal agencies understand and plan identity lifecycle management initiatives.
+</p>
 
-<div class="usa-accordion usa-accordion--bordered">
+<div class="usa-accordion usa-accordion--bordered padding-top-4">
   <h4 class="usa-accordion__heading">
     <button type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="v-a1">
       Date: {{page.pubdate}} - Version: {{page.version}}
@@ -443,7 +445,7 @@ The ILM playbook outlined an identity lifecycle process and four steps to create
 
 ### Government-Wide Guidance
 
-1. [FICAM Architecture]({{ site.baseurl }}/why/icam/){:class="usa-link"}
+1. [FICAM Architecture]({{ site.baseurl }}/arch/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link"}
 2. [ICAM Governance Framework]({{ site.baseurl }}/docs/playbook-identity-governance-framework.pdf){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link"}
 3. [NIST Special Publication 800-63 Additional Information Sources Including Conformance Criteria](https://pages.nist.gov/800-63-3/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 4. [NIST Interagency Report 8149 - Developing Trust Frameworks to Support Identity Federations](https://csrc.nist.gov/publications/detail/nistir/8149/final){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
